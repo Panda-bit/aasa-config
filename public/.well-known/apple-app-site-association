@@ -1,0 +1,16 @@
+{
+  "appclips": {
+    "apps": [
+      "A26WYGVKQC.Lucas.CollegeTourGuideApp.Clip"
+    ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "A26WYGVKQC.Lucas.CollegeTourGuideApp",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
