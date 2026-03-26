@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Babson Campus Tour | Otur</title>
+    <meta
+      name="description"
+      content="Explore Babson with Otur. Launch the App Clip to start a guided campus tour with directions, stops, and tour highlights."
+    />
+    <style>
+      :root {
+        --bg-top: #f5f1e8;
+        --bg-mid: #ffffff;
+        --bg-bottom: #eef5ef;
+        --text: #123524;
+        --muted: #4d6356;
+        --accent: #597c31;
+        --button: #123524;
+        --button-text: #ffffff;
+        --card: rgba(255, 255, 255, 0.82);
+        --border: rgba(18, 53, 36, 0.1);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top right, rgba(89, 124, 49, 0.12), transparent 30%),
+          linear-gradient(180deg, var(--bg-top) 0%, var(--bg-mid) 46%, var(--bg-bottom) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+
+      .card {
+        width: 100%;
+        max-width: 640px;
+        padding: 40px 28px;
+        border-radius: 28px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        box-shadow: 0 18px 50px rgba(18, 53, 36, 0.08);
+        text-align: center;
+        backdrop-filter: blur(10px);
+      }
+
+      .eyebrow {
+        margin: 0 0 12px;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.4rem, 8vw, 4.5rem);
+        line-height: 0.96;
+      }
+
+      .subtitle {
+        margin: 14px 0 0;
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: var(--muted);
+      }
+
+      .body {
+        margin: 20px auto 0;
+        max-width: 520px;
+        font-size: 1rem;
+        line-height: 1.65;
+        color: var(--muted);
+      }
+
+      .button {
+        display: inline-block;
+        margin-top: 28px;
+        padding: 14px 22px;
+        border-radius: 999px;
+        background: var(--button);
+        color: var(--button-text);
+        text-decoration: none;
+        font-weight: 700;
+        transition: transform 0.16s ease, opacity 0.16s ease;
+      }
+
+      .button:hover {
+        opacity: 0.94;
+        transform: translateY(-1px);
+      }
+
+      .fine-print {
+        margin-top: 18px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #66786d;
+      }
+
+      @media (max-width: 640px) {
+        .card {
+          padding: 32px 22px;
+          border-radius: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <p class="eyebrow">Otur</p>
+      <h1>Babson Campus Tour</h1>
+      <p class="subtitle">Explore Babson with Otur</p>
+      <p class="body">
+        Launch the Otur App Clip to start a guided Babson campus tour with
+        directions, stops, and tour highlights.
+      </p>
+      <a class="button" href="https://www.oturapp.com/babson">Open in Otur</a>
+      <p class="fine-print">
+        If the App Clip doesn’t open automatically, scan the App Clip code or
+        open this link on iPhone.
+      </p>
+    </main>
+  </body>
+</html>
